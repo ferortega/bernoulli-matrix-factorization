@@ -30,10 +30,10 @@
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
-                    <finalName>recommendations-anime</finalName>
+                    <finalName>knn-anime</finalName>
                     <archive>
                         <manifest>
-                            <mainClass>com.github.ferortega.bemf.experiment.QualityOfRecommendations</mainClass>
+                            <mainClass>com.github.ferortega.bemf.experiment.ComparisonWithKnn</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>

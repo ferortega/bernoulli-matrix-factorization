@@ -39,6 +39,9 @@ public class Settings {
     public static double REL_REC_LR;
     public static double REL_REC_REG;
 
+    // KNN
+    public static int[] KNN_NUMBER_OF_NEIGHBORS;
+
 
     // Uncomment this for MovieLens
     static {
@@ -107,6 +110,8 @@ public class Settings {
             REL_REC_NUM_ITERS = 50;
             REL_REC_LR = 0.01;
             REL_REC_REG = 0.05;
+
+            KNN_NUMBER_OF_NEIGHBORS = new int[]{50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900};
 
         } catch (Exception e) {
             e.printStackTrace();
@@ -255,6 +260,8 @@ public class Settings {
 //            REL_REC_NUM_ITERS = 75;
 //            REL_REC_LR = 0.01;
 //            REL_REC_REG = 0.05;
+//
+//            KNN_NUMBER_OF_NEIGHBORS = new int[]{50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000, 1050, 1100, 1150, 1200, 1250};
 //
 //        } catch (Exception e) {
 //            e.printStackTrace();
