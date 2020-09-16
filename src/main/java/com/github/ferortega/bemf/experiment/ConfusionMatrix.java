@@ -1,17 +1,13 @@
 package com.github.ferortega.bemf.experiment;
 
 import com.github.ferortega.bemf.recommender.BeMF;
-import com.github.ferortega.bemf.recommender.ReliabilizedRecommender;
 import es.upm.etsisi.cf4j.data.DataModel;
 import es.upm.etsisi.cf4j.data.TestItem;
 import es.upm.etsisi.cf4j.data.TestUser;
-import es.upm.etsisi.cf4j.util.Maths;
 
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
-import java.util.List;
 
 import static com.github.ferortega.bemf.experiment.Settings.*;
 

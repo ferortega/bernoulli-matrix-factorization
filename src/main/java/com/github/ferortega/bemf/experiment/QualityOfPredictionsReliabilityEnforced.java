@@ -12,7 +12,6 @@ import es.upm.etsisi.cf4j.recommender.matrixFactorization.BiasedMF;
 import es.upm.etsisi.cf4j.recommender.matrixFactorization.NMF;
 import es.upm.etsisi.cf4j.recommender.matrixFactorization.PMF;
 import es.upm.etsisi.cf4j.recommender.matrixFactorization.SVDPlusPlus;
-import es.upm.etsisi.cf4j.util.Range;
 
 import java.io.IOException;
 import java.text.DecimalFormat;
